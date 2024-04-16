@@ -1,0 +1,90 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  background-color: #F9FAFB;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.dashboard-header {
+  background-color: #005a9c;
+  color:#fff;
+  padding: 1rem;
+}
+
+.dashboard-body {
+  /* display: flex; */
+  /* height: calc(100% - 60px); */
+  /* padding:1000px */
+}
+
+.sidebar {
+  background-color: #fff;
+  width: 800px;
+  padding: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+}
+
+.user-information-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+.user-information-form input,
+.user-information-form select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.preview {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  background-color: #005a9c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #f04134;
+}
